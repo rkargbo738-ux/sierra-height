@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Heights | Premium Student Accommodation in Freetown</title>
+    <style>
+        /* All styles use Tahoma as requested */
+        * { margin:0; padding:0; box-sizing:border-box; font-family: Tahoma, sans-serif; }
+        body { background: #f9f5ef; color: #1a1a1a; line-height: 1.6; }
+        .navbar { background: #12372a; padding: 15px 40px; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; z-index:100; }
+        .logo { color: #e8c05a; font-weight: bold; font-size: 1.5rem; letter-spacing:1px; }
+        .nav-links a { color: white; text-decoration:none; margin-left:20px; font-size:0.9rem; }
+        .hero { background: linear-gradient(rgba(18,55,42,0.85), rgba(18,55,42,0.85)), url(''); padding:100px 40px; text-align:center; color:white; }
+        .hero h1 { font-size: 3rem; color: #e8c05a; margin-bottom:10px; }
+        .hero h2 { font-weight:400; margin-bottom:20px; }
+        .btn { background:#e8c05a; color:#12372a; padding:12px 25px; border-radius:30px; text-decoration:none; font-weight:bold; display:inline-block; border:none; cursor:pointer; }
+        .section { padding:70px 40px; }
+        .section-title { text-align:center; color:#12372a; font-size:2rem; margin-bottom:40px; }
+        .services-grid { display:grid; grid-template-columns: repeat(3,1fr); gap:20px; }
+        .service-card { background:white; border-radius:15px; padding:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05); border:1px solid #eee; }
+        .service-card h3 { color:#12372a; margin-bottom:10px; }
+        .amenities { background:#12372a; color:white; }
+        .amenities-grid { display:grid; grid-template-columns: repeat(4,1fr); gap:15px; text-align:center; }
+        .amenity { background: rgba(255,255,255,0.08); padding:20px; border-radius:10px; }
+        .gallery-grid { display:grid; grid-template-columns: repeat(3,1fr); gap:15px; }
+        .gallery-item { background:white; border-radius:10px; overflow:hidden; height:200px; display:flex; align-items:center; justify-content:center; color:#888; border:1px dashed #ccc; }
+        .reservation-section { background:white; }
+        .reservation-form-container { max-width:600px; margin:auto; background:#f9f5ef; padding:30px; border-radius:15px; border:1px solid #e8e0d0; }
+        .form-group { margin-bottom:15px; }
+        .form-group label { display:block; margin-bottom:5px; font-weight:bold; color:#12372a; font-size:0.9rem; }
+        .form-group input, .form-group select, .form-group textarea { width:100%; padding:12px; border:1px solid #d9d0c0; border-radius:8px; font-family:Tahoma; }
+        .btn-full-width { width:100%; padding:14px; }
+        .confirmation-text { font-size:0.85rem; color:#666; text-align:center; margin-top:10px; }
+        .site-footer { background:#0e2a20; color:#ccc; padding:50px 40px 20px; margin-top:40px; }
+        .footer-container { display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px; }
+        .footer-bottom { border-top:1px solid rgba(255,255,255,0.1); margin-top:30px; padding-top:20px; text-align:center; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SIERRA HEIGHTS</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Our Services</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#register">Register</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>SIERRA HEIGHTS</h1>
+        <h2>WHERE AMBITION MEETS ELEGANT LIVING</h2>
+        <p>Premium Student Accommodation in Freetown - Hill Station, Aberdeen, Wilberforce</p>
+        <br>
+        <a href="#reservation" class="btn">Book Your Space Now</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Sierra Heights</h2>
+        <p style="max-width:800px; margin:auto; text-align:center;">
+            Sierra Heights is Freetown's premier student accommodation provider, offering modern, secure, and comfortable living spaces designed for students who demand excellence. Located in the most serene areas of Freetown, we combine luxury with academic focus.
+        </p>
+    </section>
+
+    <!-- Our Services - Own Page Requirement -->
+    <section id="services" class="section" style="background:white;">
+        <h2 class="section-title">Our Services - Own Page</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Hill Station Residence</h3>
+                <p>Located at Hill Station, 5 minutes from Fourah Bay College. 24/7 Security, High-speed WiFi, Study rooms, Laundry.</p>
+                <br>
+                <p><strong>Price: Le 12,000 / semester</strong></p>
+            </div>
+            <div class="service-card">
+                <h3>Aberdeen Premium Suites</h3>
+                <p>Ocean view suites in Aberdeen. Fully furnished, Kitchenette, Air Conditioning, Weekly cleaning.</p>
+                <br>
+                <p><strong>Price: Le 18,000 / semester</strong></p>
+            </div>
+            <div class="service-card">
+                <h3>Wilberforce Student Lofts</h3>
+                <p>Affordable luxury for undergraduates. Shared and single options, Community lounge, Free water.</p>
+                <br>
+                <p><strong>Price: Le 8,500 / semester</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="section amenities">
+        <h2 class="section-title" style="color:#e8c05a;">Premium Amenities</h2>
+        <div class="amenities-grid">
+            <div class="amenity"><h4>24/7 Security</h4><p>CCTV & Guards</p></div>
+            <div class="amenity"><h4>Fast WiFi</h4><p>100Mbps Fiber</p></div>
+            <div class="amenity"><h4>Study Rooms</h4><p>Quiet & AC</p></div>
+            <div class="amenity"><h4>Laundry</h4><p>Free weekly</p></div>
+            <div class="amenity"><h4>Water</h4><p>24/7 Running water</p></div>
+            <div class="amenity"><h4>Power Backup</h4><p>Solar + Generator</p></div>
+            <div class="amenity"><h4>Kitchen</h4><p>Shared modern</p></div>
+            <div class="amenity"><h4>Transport</h4><p>Campus shuttle</p></div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h2 class="section-title">Accommodation Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">Room Image 1 - Hill Station</div>
+            <div class="gallery-item">Room Image 2 - Aberdeen View</div>
+            <div class="gallery-item">Room Image 3 - Study Area</div>
+            <div class="gallery-item">Room Image 4 - Lounge</div>
+            <div class="gallery-item">Room Image 5 - Kitchen</div>
+            <div class="gallery-item">Room Image 6 - Exterior</div>
+        </div>
+    </section>
+
+    <!-- Contact Page - Own Page Requirement -->
+    <section id="contact" class="section" style="background:#f8f3ea;">
+        <h2 class="section-title">Contact Us - Own Page</h2>
+        <div style="max-width:800px; margin:auto; display:grid; grid-template-columns:1fr 1fr; gap:30px;">
+            <div>
+                <h3 style="color:#12372a;">Get In Touch</h3>
+                <p><strong>Address:</strong> 12 Wilkinson Road, Freetown, Sierra Leone</p>
+                <p><strong>Phone:</strong> +232 78 123 456 / +232 88 654 321</p>
+                <p><strong>Email:</strong> contact@sierraheights.sl</p>
+                <p><strong>Office Hours:</strong> Mon - Sat, 8AM - 6PM</p>
+            </div>
+            <div>
+                <h3 style="color:#12372a;">Send Message</h3>
+                <input type="text" placeholder="Your Name" style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;">
+                <input type="email" placeholder="Your Email" style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;">
+                <textarea placeholder="Your Message" style="width:100%; padding:10px; height:80px; border-radius:5px; border:1px solid #ccc;"></textarea>
+                <button class="btn" style="margin-top:10px;">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Page - Own Page Requirement -->
+    <section id="register" class="section" style="background:white;">
+        <h2 class="section-title">Registration - Own Page</h2>
+        <p style="text-align:center; margin-bottom:20px;">Student Registration Form - Secure Your Space for 2026 Academic Year</p>
+        <div style="max-width:600px; margin:auto; background:#f9f5ef; padding:30px; border-radius:15px;">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                <input type="text" placeholder="First Name" style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+                <input type="text" placeholder="
