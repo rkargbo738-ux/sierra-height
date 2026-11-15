@@ -12,7 +12,6 @@ How To Apply / Registration
 Contact Us
 Conclusion
 
-
 INTRODUCTION
 
 Welcome to Sierra Heights — Premium Student Living in Freetown.
